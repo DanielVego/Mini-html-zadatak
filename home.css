@@ -1,0 +1,104 @@
+html {
+    height: 150%;
+}
+
+body {
+    height: 100%;
+    margin: 0;
+    background-color: rgba(171, 170, 170, 0.466);
+}
+
+.kontejner {
+    height: 100%;
+    display: flex;
+}
+
+.nav {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    height: 100%;
+    width: 200px;
+    background-color: black;
+    font-weight: bold;
+    font-style: oblique;
+    padding-right: 5px;
+    border: 1px solid black;
+    box-sizing: border-box;
+}
+
+.ostatak {
+    height: 100%;
+    padding: 0 0 0 10px;
+    margin: 0 9px;
+    background-color: rgba(250, 235, 215, 0.432);
+    border: 1px solid black;
+    box-sizing: border-box;
+}
+
+.navigacija {
+    list-style-type: circle;
+}
+
+.nav-1 {
+    display: inline-block;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+ul {
+    padding-left: 15px;
+}
+
+table {
+    width: 70%;
+    margin: auto;
+    border-collapse: collapse;
+    font-size: smaller;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+th {
+    padding: 18px;
+    background-color: rgba(86, 86, 86, 0.534);
+    color: white;
+    font-weight: bolder;
+    font-size: larger;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-shadow: 2px 2px black;
+}
+
+td {
+    padding: 9px;
+}
+
+th,
+td {
+    border-collapse: collapse;
+    border: 1px solid black;
+    width: 75px;
+    text-align: center;
+}
+
+#naslov {
+    font-size: 40px;
+    text-align: center;
+    font-family: ;
+    text-shadow: 3px 3px 3px rgb(244, 158, 158);
+}
+
+#paragraf {
+    text-indent: 30px;
+    line-height: 1.5em;
+    font-family: 'Playfair Display', serif;
+}
